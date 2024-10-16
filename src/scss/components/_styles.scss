@@ -1,0 +1,705 @@
+.inter__head {
+  background: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/inter-bg.png")
+    center bottom/cover no-repeat #fff;
+  padding: 61px 0 40px;
+}
+
+.inter__text {
+  max-width: 575px;
+  margin-top: 27px;
+  color: #6b757d;
+  font-size: 16pt;
+  line-height: 25px;
+}
+
+.corp__status-box.status-red {
+  background-color: #ef487c;
+  color: #fff;
+  padding: 4px 15px;
+}
+
+.inter-alert,
+.inter-find {
+  max-width: 900px;
+  border: 5px dashed #ddebf5;
+  border-radius: 20px;
+  padding: 42px;
+  position: relative;
+  margin: auto;
+}
+
+.inter-find-left {
+  position: absolute;
+  left: -50px;
+  top: calc(50% - 130px);
+}
+
+.inter-find-right {
+  margin-left: 195px;
+}
+
+.inter-find-text {
+  color: #6b757d;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.inter-block-list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inter-block-inner {
+  width: 50%;
+  padding-left: 85px;
+  padding-right: 10px;
+}
+
+.inter-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.inter-block-list .inter-title {
+  position: relative;
+}
+
+.inter-hint {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: -80px;
+  top: 8px;
+  border-radius: 50%;
+  background-size: 32px auto;
+  background-color: #4cab4c;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inter-hint.ih-os {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/hint-os.png");
+}
+
+.inter-hint.ih-wo {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/hint-wo.png");
+}
+
+.inter-hint.ih-gk {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/hint-gk.png");
+}
+
+.inter-block-item {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inter-block-ul {
+  list-style: none;
+  padding-left: 14px;
+}
+
+.inter-block-ul li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 24px;
+  color: #6b757d;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.inter-block-ul li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 7px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background: #ef487c;
+}
+
+.lime {
+  color: #4cab4c;
+}
+
+.inter-alert {
+  display: flex;
+}
+
+.inter-alert-right {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.inter-form {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/form-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: calc(100% - 800px) auto;
+  background-color: #f0f5f9;
+  border-radius: 16px;
+  margin-top: 50px;
+  padding: 50px 70px;
+}
+
+.inter-form-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.inter-form .b24-form-wrapper {
+  margin: 0;
+  /*background: none;*/
+}
+
+.inter-form .b24-form-header-padding {
+  display: none;
+}
+
+.inter-form .b24-form-content {
+  padding: 0;
+}
+
+.inter-form .b24-form-btn,
+.inter-form .b24-form-control-string .b24-form-control {
+  border-radius: 30px;
+}
+
+.inter-form .b24-form-control-icon-after .b24-form-control-label {
+  padding: 0 0 0 52px;
+}
+
+.inter-form .b24-form-control-string .b24-form-control:focus {
+  border: 2px solid #4cab4c;
+}
+
+.inter-form .b24-form-control-string .b24-form-control {
+  padding: 0 15px 0 52px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+
+.inter-form .b24-form-field-name .b24-form-control,
+.inter-form .b24-form-field-last-name .b24-form-control {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/black-li-name.png");
+}
+
+.inter-form .b24-form-field-name .b24-form-control:focus,
+.inter-form .b24-form-field-last-name .b24-form-control:focus {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/green-li-name.png");
+}
+
+.inter-form .b24-form-field-phone .b24-form-control {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/black-li-phone.png");
+}
+
+.inter-form .b24-form-field-phone .b24-form-control:focus {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/green-li-phone.png");
+}
+
+.inter-form .b24-form-field-email .b24-form-control {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/black-li-mail.png");
+}
+
+.inter-form .b24-form-field-email .b24-form-control:focus {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/green-li-mail.png");
+}
+
+.inter-form .b24-form-field-string:nth-child(5) .b24-form-control {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/black-li-obr.png");
+}
+
+.inter-form .b24-form-field-string:nth-child(5) .b24-form-control:focus {
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/green-li-obr.png");
+}
+
+.inter-form .b24-form-field-layout-section {
+  padding-left: 52px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-image: url("https://school.usabilitylab.ru/bitrix/templates/ulab_school/images/inter/black-li-work.png");
+  margin: 0;
+}
+
+.inter-form .b24-form-field-layout {
+  width: 100%;
+}
+
+.inter-form .b24-form-field-layout > div {
+  display: flex;
+  align-items: center;
+}
+
+.inter-form .work-checkbox {
+  margin-left: 80px;
+}
+
+.inter-form .work-checkbox input {
+  margin-right: 10px;
+  height: 17px;
+}
+
+.inter-form .work-checkbox label {
+  margin-right: 30px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.inter-form .b24-form-field-string:nth-child(7) .b24-form-control-label {
+  display: none;
+}
+
+.inter-form .b24-form-field-string:nth-child(7) .b24-form-control {
+  padding: 0 15px;
+}
+
+.inter-form form > div:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.b24-form-field-name,
+.b24-form-field-last-name,
+.b24-form-field-phone,
+.b24-form-field-email {
+  width: 49%;
+  margin-bottom: 24px;
+}
+
+.b24-form-field-string {
+  width: 100%;
+}
+
+/*.inter-form .b24-form-control-alert.b24-form-control-string .b24-form-control {
+		background-color: rgb(255, 209, 197);
+	}*/
+
+.inter-form .b24-form-control-not-empty + .b24-form-control-label,
+.inter-form .b24-form-control:focus + .b24-form-control-label {
+  display: none;
+}
+
+.inter-cert-title {
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  max-width: 720px;
+  margin-bottom: 2.2rem;
+  font-weight: bold;
+}
+.inter-cert img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 480px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.inter-block-ul:not(:last-child) {
+  margin-bottom: 4em;
+}
+
+.inter-form-text-center {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+
+#inter-form .btn {
+  margin: auto;
+}
+.corp__video {
+  background-color: #fff;
+  padding: 3rem 0 0;
+}
+.corp__video-wrap iframe {
+  margin: auto;
+}
+.inter__head .btn {
+  width: 290px;
+}
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  padding: 96px 0;
+  max-width: 1000px;
+  overflow: hidden;
+}
+.step {
+  text-align: center;
+  flex: 1;
+  position: relative;
+
+  &:nth-of-type(even) .step-circle:before {
+    bottom: auto;
+    top: -24px;
+  }
+  &:nth-of-type(even) .step-description {
+    top: -100%;
+  }
+
+  &:is(:hover) {
+    .step-description {
+      // text-decoration-color: currentColor;
+      text-shadow: 0px 0px 10px rgba(34, 60, 80, .4);
+    }
+
+    .step-circle {
+      transform: scale(0.9);
+    }
+  }
+}
+.step-circle {
+  width: 104px;
+  height: 104px;
+  border: 1px solid;
+  box-shadow: inset 0 0 0 14px #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto;
+  position: relative;
+  transition: transform .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  z-index: 1;
+
+  &:before {
+    content: '';
+    width: 3px;
+    height: 24px;
+    background-color: transparent;
+    display: block;
+    bottom: -24px;
+    position: absolute;
+  }
+}
+.step-description {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 14px;
+  bottom: -75px;
+  left: 50%;
+  width: 245px;
+  transform: translateX(-50%);
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-shadow .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.intern__steps .section-title {
+  text-align: center;
+  font-size: 2.4em;
+}
+.step-line {
+  height: 30px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  right: 50%;
+  // z-index: -1;
+}
+.step:nth-child(1) .step-line {
+  width: 120px;
+  background-color: #FFD22D;
+}
+.step:nth-child(1) .step-circle {
+  border-color: #FFD22D;
+  color: #000;
+  background-color: #FFD22D;
+
+  &::before {
+    background-color: #FFD22D;
+  }
+}
+.step:nth-child(2) .step-line {
+  background-color: #4CAB4C;
+}
+.step:nth-child(2) .step-circle {
+  border-color: #4CAB4C;
+  background-color: #4CAB4C;
+
+  &::before {
+    background-color: #4CAB4C;
+  }
+}
+.step:nth-child(3) .step-line {
+  background-color: #EF487C;
+}
+.step:nth-child(3) .step-circle {
+  border-color: #EF487C;
+  background-color: #EF487C;
+
+  &::before {
+    background-color: #EF487C;
+  }
+}
+.step:nth-child(4) .step-line {
+  background-color: #878787;
+}
+.step:nth-child(4) .step-circle {
+  border-color: #878787;
+  background-color: #878787;
+
+  &::before {
+    background-color: #878787;
+  }
+}
+.step:nth-child(5) .step-line {
+  background-color: #348ECD;
+}
+.step:nth-child(5) .step-circle {
+  border-color: #348ECD;
+  background-color: #348ECD;
+
+  &::before {
+    background-color: #348ECD;
+  }
+}
+.step:first-child .step-line {
+  // display: none;
+}
+.step:last-child .step-line {
+  // width: 50%;
+}
+.step:first-child {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(0%);
+    left: -16px;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 30.5px 0 30.5px 32px;
+    border-color: transparent transparent transparent #fff;
+    transform: rotate(0deg) translateY(-50%);
+  }
+}
+.step:last-child {
+  &:before {
+    content: '';
+    height: 30px;
+    background-color: #348ECD;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    right: 20px;
+    // z-index: -1;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(0%);
+    right: 0;
+    // z-index: -1;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 30.5px 0 30.5px 32px;
+    border-color: transparent transparent transparent #348ECD;
+    transform: rotate(0deg) translateY(-50%);
+  }
+}
+@media (max-width: 1400px) {
+  .inter__head {
+    background-position: left center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inter-form {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inter-block-list {
+    display: block;
+  }
+
+  .inter-block-inner {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .step-circle {
+    width: 75px;
+    height: 75px;
+    box-shadow: inset 0 0 0 7px #fff;
+    font-size: 22px;
+  }
+}
+@media (max-width: 750px) {
+  .inter-form {
+    padding: 10px;
+  }
+
+  .inter-form-title {
+    text-align: center;
+  }
+
+  .inter-form form > div:first-child {
+    display: block;
+  }
+
+  .b24-form-field-name,
+  .b24-form-field-last-name,
+  .b24-form-field-phone,
+  .b24-form-field-email {
+    width: 100%;
+  }
+
+  .inter-alert {
+    display: block;
+  }
+
+  .inter-find-left,
+  .inter-alert-left {
+    display: block;
+    position: initial;
+    margin: auto;
+  }
+
+  .inter-find-right,
+  .inter-alert-right {
+    margin-left: 0;
+  }
+
+  .inter__text {
+    margin-bottom: 10px;
+  }
+
+  .step-line,
+  .step:last-child:before {
+    height: 16px;
+  }
+  .step:last-child:after {
+    border-width: 15.5px 0 15.5px 16px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .corp__status-box.status-red {
+    text-align: center;
+  }
+  .inter-block-list .inter-title {
+    font-size: 17px;
+  }
+  .inter-cert-title {
+    font-size: 15px;
+  }
+  .inter-block-inner {
+    padding-left: 45px;
+  }
+  .inter-hint {
+    width: 36px;
+    height: 36px;
+    left: -50px;
+    background-size: 20px auto;
+  }
+  .inter-block-ul:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .steps-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    row-gap: 110px;
+    margin: 25px 0;
+  }
+  .step-circle {
+    width: 55px;
+    height: 55px;
+    box-shadow: inset 0 0 0 7px #fff;
+    font-size: 22px;
+  }
+  .step-line {
+    height: 10px;
+  }
+  .step-description {
+    font-size: 12px;
+    width: 150px;
+    left: 55%;
+  }
+  .step-line {
+    width: 200%;
+  }
+  .step:last-child:before {
+    height: 10px;
+    right: 0;
+  }
+  .step:last-child:after {
+    right: -8px;
+    border-width: 10.5px 0 10.5px 12px;
+  }
+  .step:nth-of-type(even) .step-description {
+    top: -100px;
+  }
+  .step:nth-of-type(3) .step-description {
+    left: 15%;
+    text-align: right;
+    bottom: -95px;
+  }
+  .step:nth-of-type(4) .step-description {
+    bottom: -95px;
+    top: auto;
+  }
+  .step:last-of-type .step-description {
+    bottom: -95px;
+  }
+  .step:nth-of-type(4) .step-circle::before {
+    bottom: -24px;
+    top: auto;
+  }
+  .intern__steps .section-title {
+    font-size: 1.4em;
+  }
+  .step-circle {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media (max-width: 480px) {
+  .step-line {
+    width: 150%;
+  }
+  .step:last-child:before {
+    right: 0;
+  }
+  .corp .inter__head .btn {
+    width: 280px;
+  }
+}
+@media (max-width: 375px) {
+  .step-line {
+    width: 125%;
+  }
+}
+@media (max-width: 360px) {
+  .step:last-of-type .step-description {
+    width: 105px;
+  }
+}
